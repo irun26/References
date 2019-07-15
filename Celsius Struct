@@ -1,0 +1,10 @@
+struct Celsius {
+    var temperature: Double
+    init() {
+        temperature = 0.0
+    }
+}
+
+var c = Celsius()
+
+print("The default temperature is \(c.temperature)° Celsius")
